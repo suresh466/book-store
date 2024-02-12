@@ -13,12 +13,12 @@ namespace SureshThagunna_BookStore
         protected void loginButton_Click(object sender, EventArgs e)
         {
             Session["FirstName"] = FirstName.Text;
-            Response.Redirect("products.aspx");
+            Response.Redirect("products");
         }
 
         protected void cancelButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("default.aspx");
+            Response.Redirect("default");
         }
 
 

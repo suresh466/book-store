@@ -61,7 +61,7 @@ namespace SureshThagunna_BookStore
         // button to go back to the products page
         protected void btnCheckOut_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CheckOut.aspx");
+            Response.Redirect("~/CheckOut");
         }
     }
 }

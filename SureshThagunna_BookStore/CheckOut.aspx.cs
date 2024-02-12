@@ -16,7 +16,7 @@ namespace SureshThagunna_BookStore
             {
                 Session.Remove("Cart");
                 //clear the checkout form by just redirecting to the same page
-                Response.Redirect("~/CheckOut.aspx");
+                Response.Redirect("~/CheckOut");
             }
         }
     }
