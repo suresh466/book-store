@@ -1,17 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace SureshThagunna_BookStore
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class Login : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
+        protected void loginButton_Click(object sender, EventArgs e)
+        {
+            Session["FirstName"] = FirstName.Text;
+            Response.Redirect("products.aspx");
+        }
+
+        protected void cancelButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
+        }
+
+
     }
 }

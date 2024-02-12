@@ -18,6 +18,12 @@ namespace SureshThagunna_BookStore
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["FirstName"] != null)
+            {
+                // decorating the name with comma and exclamation mark so the welcome back message by itself looks good
+                string decoratedName = ", " + Session["FirstName"].ToString() + '!';
+                lblFirstName.Text = decoratedName;
+            }
             //bind dropdown on first load; get and show product data on every load   
             if (!IsPostBack)
             {

@@ -4,6 +4,12 @@
     <div class="container mt-4">
         <main>
             <div class="row">
+                <div class="col-sm-12">
+                    <!-- Weocome back is decorated dynamically so it looks good by itself -->
+                    <h2>Welcome Back<asp:Label ID="lblFirstName" runat="server"></asp:Label></h2>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2>Products</h2>
                 </div>
