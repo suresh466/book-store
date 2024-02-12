@@ -161,7 +161,7 @@
                         <asp:Button ID="btnCheckOut" runat="server" Text="Place Order" CssClass="btn btn-success"
                             OnClick="btnCheckOut_Click" />
                         <asp:LinkButton ID="lbtnContinueShopping" runat="server" CssClass="btn btn-primary"
-                            PostBackUrl="~/Cart.aspx" CausesValidation="False">Go back to Cart</asp:LinkButton>
+                            PostBackUrl="~/Cart" CausesValidation="False">Go back to Cart</asp:LinkButton>
                     </div>
                 </div>
             </div>

@@ -11,9 +11,10 @@ namespace SureshThagunna_BookStore
 {
     public class Global : HttpApplication
     {
+        // this code runs on application startup
         void Application_Start(object sender, EventArgs e)
         {
-            // Code that runs on application startup
+            // register routes for friendly URLs
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }

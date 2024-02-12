@@ -10,6 +10,7 @@ namespace SureshThagunna_BookStore
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            // Enable friendly URLs
             var settings = new FriendlyUrlSettings();
             settings.AutoRedirectMode = RedirectMode.Permanent;
             routes.EnableFriendlyUrls(settings);

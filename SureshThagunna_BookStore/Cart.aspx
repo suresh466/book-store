@@ -32,7 +32,7 @@
             <div class="row mt-4">
                 <asp:Label ID="lblMessage" runat="server" EnableViewState="False" CssClass="text-info col-sm-12 mb-2"></asp:Label>
                 <div class="col-sm-12">
-                    <asp:Button ID="btnContinue" runat="server" PostBackUrl="~/Products.aspx" Text="Continue Shopping" CssClass="btn btn-primary mr-2" />
+                    <asp:Button ID="btnContinue" runat="server" PostBackUrl="~/Products" Text="Continue Shopping" CssClass="btn btn-primary mr-2" />
                     <asp:Button ID="btnCheckOut" runat="server" Text="Check Out" OnClick="btnCheckOut_Click" CssClass="btn btn-success" />
                 </div>
             </div>

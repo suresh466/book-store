@@ -10,7 +10,7 @@
                         <div class="card-body">
                             <h1 id="aspnetTitle" class="card-title">Open Book Store</h1>
                             <p class="lead card-text">Open Book Store is bringing forth the concept of open source into books industry.</p>
-                            <asp:Button ID="btnStartShopping" runat="server" Text="Start Shopping" PostBackUrl="~/Products.aspx" CssClass="btn btn-primary" />
+                            <asp:Button ID="btnStartShopping" runat="server" Text="Start Shopping" PostBackUrl="~/Products" CssClass="btn btn-primary" />
                         </div>
                     </div>
                 </div>

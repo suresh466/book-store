@@ -5,8 +5,7 @@
         <main>
             <div class="row">
                 <div class="col-sm-12">
-                    <!-- Weocome back is decorated dynamically so it looks good by itself -->
-                    <h2>Welcome Back<asp:Label ID="lblFirstName" runat="server"></asp:Label></h2>
+                    <h2>Welcome Back, <asp:Label ID="lblFirstName" runat="server"></asp:Label>!</h2>
                 </div>
             </div>
             <div class="row">
@@ -81,7 +80,7 @@
                         <asp:Button ID="btnAdd" runat="server" Text="Add to Cart"
                             OnClick="btnAdd_Click" CssClass="btn btn-primary mr-2" />
                         <asp:Button ID="btnCart" runat="server" Text="Go to Cart"
-                            PostBackUrl="~/Cart.aspx" CausesValidation="False" CssClass="btn btn-success" />
+                            PostBackUrl="~/Cart" CausesValidation="False" CssClass="btn btn-success" />
                     </div>
                 </div>
 
