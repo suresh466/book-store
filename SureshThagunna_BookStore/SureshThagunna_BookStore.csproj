@@ -128,6 +128,30 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Products\android-world.jpg" />
+    <Content Include="Images\Products\blood-trail.jpg" />
+    <Content Include="Images\Products\broken-heart.jpg" />
+    <Content Include="Images\Products\chainshaw.jpg" />
+    <Content Include="Images\Products\chronicles.jpg" />
+    <Content Include="Images\Products\continents.jpg" />
+    <Content Include="Images\Products\going-mars.jpg" />
+    <Content Include="Images\Products\got.jpg" />
+    <Content Include="Images\Products\history-africa.jpg" />
+    <Content Include="Images\Products\human-history.jpg" />
+    <Content Include="Images\Products\kidnapper.jpg" />
+    <Content Include="Images\Products\lost-murderer.jpg" />
+    <Content Include="Images\Products\lovers-paradise.jpg" />
+    <Content Include="Images\Products\natures-design.jpg" />
+    <Content Include="Images\Products\no-hate.jpg" />
+    <Content Include="Images\Products\placeholder.jpg" />
+    <Content Include="Images\Products\pythonic-way.jpg" />
+    <Content Include="Images\Products\quirks-js.jpg" />
+    <Content Include="Images\Products\tales-tanner.jpg" />
+    <Content Include="Images\Products\tales-untold.jpg" />
+    <Content Include="Images\Products\uni-predator.jpg" />
+    <Content Include="Images\Products\vim-motions.jpg" />
+    <Content Include="Images\Products\walk-earth.jpg" />
+    <Content Include="Images\Products\way-columbus.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -258,9 +282,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />

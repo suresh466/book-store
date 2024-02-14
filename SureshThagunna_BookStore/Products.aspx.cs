@@ -42,7 +42,7 @@ namespace SureshThagunna_BookStore
             lblPublicationDate.Text = selectedBook.PublicationDate;
             lblUnitPrice.Text = selectedBook.Price.ToString("c") + " each";
             //imgProduct.ImageUrl = "Images/Products/" + selectedBook.CoverImage;
-            imgProduct.ImageUrl = "Images/Products/placeholder.jpg";
+            imgProduct.ImageUrl = "Images/Products/" + selectedBook.CoverImage + ".jpg";
 
         }
 
