@@ -14,6 +14,9 @@ namespace SureshThagunna_BookStore
         {
             // store the first name in a session variable
             Session["FirstName"] = FirstName.Text;
+            Session["LastName"] = LastName.Text;
+            // set the IsLoggedIn session variable to true upon successful login
+            Session["IsLoggedIn"] = true;
             Response.Redirect("products");
         }
 

@@ -10,7 +10,14 @@
                         <div class="card-body">
                             <h1 id="aspnetTitle" class="card-title">Open Book Store</h1>
                             <p class="lead card-text">Open Book Store is bringing forth the concept of open source into books industry.</p>
+                            <% if (Session["IsLoggedIn"] != null && (bool)Session["IsLoggedIn"])
+                                { %>
                             <asp:Button ID="btnStartShopping" runat="server" Text="Start Shopping" PostBackUrl="~/Products" CssClass="btn btn-primary" />
+                            <% }
+                            else
+                            { %>
+                            <asp:Button ID="btnLogin" runat="server" Text="Login" PostBackUrl="~/Login" CssClass="btn btn-primary" />
+                            <% } %>
                         </div>
                     </div>
                 </div>
